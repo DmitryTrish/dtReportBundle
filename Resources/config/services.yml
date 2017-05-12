@@ -1,4 +1,4 @@
 services:
-#    dmitry_trish_report.example:
-#        class: DmitryTrish\ReportBundle\Example
-#        arguments: ["@service_id", "plain_value", "%parameter%"]
+    dmitry_trish.report.report_service:
+        class: DmitryTrish\ReportBundle\Core\ReportService
+        arguments: ["@doctrine.orm.entity_manager", "@request_stack"]
