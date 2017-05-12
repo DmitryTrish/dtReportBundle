@@ -1,5 +1,5 @@
 {
-  "name": "DmitryTrish/ReportBundle",
+  "name": "dmitry-trish/report-bundle",
   "type": "library",
   "description": "Symfony report bundle",
   "keywords": ["report","bugtracker","symfony"],

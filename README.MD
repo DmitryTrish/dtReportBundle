@@ -3,7 +3,7 @@ by Dmitry Trish
 
 ## Installation
 
-- Add composer package `$ composer require DmitryTrish/ReportBundle`
+- Add composer package `$ composer require dmitry-trish/report-bundle`
 - Add `new DmitryTrish\ReportBundle\DmitryTrishReportBundle()` in **appKernel.php** $bundles array
 - Update your DB schema `$ ./bin/console doctrine:schema:update --force`
 
