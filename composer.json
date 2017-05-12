@@ -1,0 +1,34 @@
+{
+  "name": "DmitryTrish/ReportBundle",
+  "type": "library",
+  "description": "Symfony report bundle",
+  "keywords": ["report","bugtracker","symfony"],
+  "homepage": "https://github.com/DmitryTrish/dtReportBundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitry Trush",
+      "email": "git@dimatrish.ru"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require-dev": {
+    "mockery/mockery": "~0.9.1",
+    "symfony/phpunit-bridge": "~3.2"
+  },
+  "autoload": {
+    "files": ["lib/swift_required.php"]
+  },
+  "autoload-dev": {
+    "psr-0": {
+      "Swift_": "tests/unit"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "5.4-dev"
+    }
+  }
+}
